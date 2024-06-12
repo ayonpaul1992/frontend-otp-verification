@@ -1,0 +1,178 @@
+@media(max-width: 1920px) {}
+
+@media(max-width: 1680px) {
+    .container {
+        max-width: 1450px;
+    }
+
+    html {
+        font-size: 53%;
+    }
+
+    .calculator_sec {
+        width: 19%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+}
+
+@media(max-width: 1440px) {
+    .container {
+        max-width: 1340px;
+    }
+
+    html {
+        font-size: 47%;
+    }
+
+    .calculator_sec {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .btns {
+        font-size: 17px;
+    }
+
+}
+
+@media(max-width: 1366px) {
+    .container {
+        max-width: 1240px;
+    }
+
+}
+
+@media(max-width: 1280px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    html {
+        font-size: 42%;
+    }
+
+    .calculator_sec {
+        width: 21%;
+    }
+
+    h1 {
+        font-size: 19px;
+    }
+
+    .btns {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 1199px) {
+    .container {
+        max-width: 100%;
+    }
+
+    html {
+        font-size: 100%;
+    }
+
+    .calculator_sec {
+        width: 26%;
+    }
+
+}
+
+@media(max-width: 1080px) {
+    .calculator_sec {
+        width: 28%;
+        padding: 20px 15px;
+    }
+}
+
+@media(max-width: 1024px) {}
+
+@media(max-width: 991px) {}
+
+@media(max-width: 900px) {
+    .calculator_sec {
+        width: 30%;
+    }
+}
+
+@media(max-width: 840px) {
+    .calculator_sec {
+        width: 33%;
+    }
+}
+
+@media(max-width: 768px) {
+    .calculator_sec {
+        width: 35%;
+    }
+}
+
+@media(max-width: 767px) {
+    .calculator_sec {
+        width: 37%;
+    }
+}
+
+@media(max-width: 667px) {
+    .calculator_sec {
+        width: 41%;
+    }
+}
+
+@media(max-width: 600px) {
+    .calculator_sec {
+        width: 45%;
+        margin: 13% auto;
+    }
+}
+
+@media(max-width: 575px) {
+    .calculator_sec {
+        width: 47%;
+        margin: 14% auto;
+    }
+}
+
+@media(max-width: 480px) {
+    .calculator_sec {
+        width: 58%;
+        margin: 16% auto;
+    }
+}
+
+@media(max-width: 430px) {
+    .calculator_sec {
+        width: 64%;
+        margin: 18% auto;
+    }
+}
+
+@media(max-width: 390px) {
+    .calculator_sec {
+        width: 70%;
+        margin: 20% auto;
+    }
+}
+
+@media(max-width: 375px) {
+    .calculator_sec {
+        width: 74%;
+        margin: 20.5% auto;
+    }
+}
+
+@media(max-width: 360px) {
+    .calculator_sec {
+        width: 75%;
+        margin: 21% auto;
+    }
+}

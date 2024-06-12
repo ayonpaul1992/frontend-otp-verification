@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.container {
+    max-width: 1560px;
+}
+
+/* ayon paul start / 03.06.2024 */
+
+.btns.mprtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.inpt_digit {
+    padding: 10px;
+    border: 1px solid orangered;
+    color: black;
+    transition: all 0.3s;
+    color: orangered;
+    caret-color: orangered;
+    width: 100%;
+}
+
+.inpt_digit:focus {
+    box-shadow: none;
+}
+
+.calculator_sec {
+    background: hwb(40 18% 1%);
+    width: 17%;
+    margin: 12% auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px
+}
+
+.calc_btns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.calc_btns:last-of-type {
+    padding-bottom: 0;
+}
+
+.btns {
+    text-align: center;
+    padding: 10px 15px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orangered;
+}
+
+.calc_inpt {
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: orangered;
+}
