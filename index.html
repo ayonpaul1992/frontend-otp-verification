@@ -4,53 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js Project calculator</title>
+    <title>Js Project OTP Verification</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
-<body style="background: black;">
+<body
+    style="background: rgb(137, 247, 172); display: flex; align-items: center; justify-content: center; height: 100vh;">
 
-    <section class="calculator_sec">
-        <h1>Calculate me here</h1>
-        <div class="calc_inpt">
-            <input type="text" class="inpt_digit">
-        </div>
-        <div class="calc_btns">
-            <button class="btns">AC</button>
-            <button class="btns">%</button>
-            <button class="btns" id="sqrtBtn">&#8730;</button>
-            <button class="btns mprtn"><span class="m-pls">+</span><bdi> / </bdi><span class="m-mns">-</span></button>
-        </div>
-        <div class="calc_btns">
-            <button class="btns">7</button>
-            <button class="btns">8</button>
-            <button class="btns">9</button>
-            <button class="btns">*</button>
-        </div>
-        <div class="calc_btns">
-            <button class="btns">4</button>
-            <button class="btns">5</button>
-            <button class="btns">6</button>
-            <button class="btns">/</button>
-        </div>
-        <div class="calc_btns">
-            <button class="btns">1</button>
-            <button class="btns">2</button>
-            <button class="btns">3</button>
-            <button class="btns">+</button>
-        </div>
-        <div class="calc_btns">
-            <button class="btns">0</button>
-            <button class="btns">.</button>
-            <button class="btns">=</button>
-            <button class="btns">-</button>
+    <section class="otp_sec">
+        <div class="container">
+            <div class="otp_otter">
+                <div class="otp_main text-center">
+                    <h2>varify your account</h2>
+                    <p>We have sent a varification code to your email address.<br>
+                        Enter the varification code that you received.
+                    </p>
+                    <form class="code-cont-form">
+                        <div class="code-contains">
+                            <input type="text" class="code" maxlength="1" required>
+                            <input type="text" class="code" maxlength="1" required>
+                            <input type="text" class="code" maxlength="1" required>
+                            <input type="text" class="code" maxlength="1" required>
+                            <input type="text" class="code" maxlength="1" required>
+                            <input type="text" class="code" maxlength="1" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
         </div>
     </section>
-
-
 
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/custom.js"></script>
